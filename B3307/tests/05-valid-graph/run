@@ -1,0 +1,1 @@
+../../bin/analog -g graph.dot ../../logs/50-lines.log

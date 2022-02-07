@@ -1,0 +1,18 @@
+Test ID;Return code validation;Out result;StdErr result;File creation result;Global result
+01-valid-default-50-lines/;1;1;2;2;1
+02-valid-default-05-lines/;1;1;2;2;1
+03-valid-default-empty-file/;1;1;2;2;1
+04-invalid-filename/;1;2;1;2;1
+05-valid-graph/;1;1;2;1;1
+06-graph-missing-filename/;1;2;1;2;1
+07-mixed-extentions-filter-on/;1;1;2;2;1
+08-mixed-extentions-filter-off/;1;1;2;2;1
+09-only-authorised-files/;1;1;2;2;1
+10-only-skipped-files/;1;1;2;2;1
+11-time-mask-on/;1;1;2;2;1
+12-time-mask-off/;1;1;2;2;1
+13-time-mask-all/;1;1;2;2;1
+14-time-mask-none/;1;1;2;2;1
+15-time-mask-no-hour-specified/;1;2;1;2;1
+16-time-mask-invalid-hour/;1;2;1;2;1
+17-all-options/;1;1;2;1;1

@@ -1,0 +1,37 @@
+digraph {
+node18 [label="/favicon.ico"];
+node16 [label="/temps/5IF39.html"];
+node15 [label="/temps/5IF44.html"];
+node13 [label="/temps/5IF43.html"];
+node0 [label="/SiteWebIF/Intranet-etudiant.php"];
+node1 [label="-"];
+node14 [label="/temps/5IF45.html"];
+node2 [label="/temps/5IF52.html"];
+node3 [label="/temps/5IF51.html"];
+node17 [label="/permanences"];
+node10 [label="/SiteWebIF/Intranet-personnel.php?ticket=ST-183688-YqeKeMxk2O3dPNlTuIRZ-dsi-vm04"];
+node4 [label="/temps/index.html"];
+node5 [label="/notesif"];
+node7 [label="/temps/5IF40.html"];
+node9 [label="http://if.insa-lyon.fr"];
+node6 [label="/stages/ListePFE.php"];
+node8 [label="/SiteWebIF/Intranet-personnel.php"];
+node11 [label="/temps/5IF41.html"];
+node12 [label="/temps/5IF42.html"];
+node1 -> node18 [label="1"];
+node1 -> node17 [label="1"];
+node1 -> node0 [label="1"];
+node12 -> node13 [label="1"];
+node3 -> node2 [label="1"];
+node2 -> node4 [label="1"];
+node8 -> node5 [label="2"];
+node0 -> node5 [label="2"];
+node0 -> node6 [label="1"];
+node4 -> node7 [label="1"];
+node9 -> node8 [label="2"];
+node9 -> node10 [label="1"];
+node7 -> node11 [label="1"];
+node11 -> node12 [label="1"];
+node15 -> node14 [label="1"];
+node7 -> node16 [label="1"];
+}

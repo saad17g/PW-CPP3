@@ -1,1 +1,0 @@
-../../bin/analog -e -i -g graph.dot -t 10 ../../logs/50-mixed-hours.log
